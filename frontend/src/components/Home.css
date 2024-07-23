@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=MonteCarlo&display=swap');
+
+.header{
+    background-image: linear-gradient(rgba(5,10,35,0.75), rgba(5,10,35,0.75)), url(./images/a1.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-sm-6 {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 2%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-6 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .font-semibold {
+        font-size: 2xl;
+    }
+
+    .text-4xl {
+        font-size: 3xl;
+    }
+
+    .text-xl {
+        font-size: large;
+    }
+
+    .font-mono {
+        font-size: medium;
+    }
+
+    .mt-40 {
+        margin-top: 20px;
+    }
+
+    .m-30 {
+        margin: 15px;
+    }
+
+    .ml-20 {
+        margin-left: 10px;
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1%;
+    }
+
+    .font-semibold {
+        font-size: xl;
+    }
+
+    .text-4xl {
+        font-size: 2xl;
+    }
+
+    .text-xl {
+        font-size: medium;
+    }
+
+    .font-mono {
+        font-size: small;
+    }
+
+    .mt-40 {
+        margin-top: 10px;
+    }
+
+    .m-30 {
+        margin: 10px;
+    }
+
+    .ml-20 {
+        margin-left: 5px;
+    }
+
+    .rounded-full {
+        padding: 10px;
+        font-size: small;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.animated-text {
+    clip-path: inset(0 100%);
+    animation: animate 2s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      clip-path: inset(0 100%);
+    }
+    100% {
+      clip-path: inset(0 0);
+    }
+  }
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+    .font-semibold {
+        font-size: 4xl;
+    }
+
+    .text-4xl {
+        font-size: 5xl;
+    }
+
+    .text-xl {
+        font-size: 2xl;
+    }
+
+    .font-mono {
+        font-size: large;
+    }
+
+    .mt-40 {
+        margin-top: 40px;
+    }
+
+    .m-30 {
+        margin: 30px;
+    }
+
+    .ml-20 {
+        margin-left: 20px;
+    }
+
+    .rounded-full {
+        padding: 20px;
+    }
+
+    img {
+        max-height: 100%;
+    }
+}
+
+
+
+
+

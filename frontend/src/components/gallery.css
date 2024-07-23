@@ -1,0 +1,43 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.contains{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(4, minmax(350px, 1fr));
+    grid-gap:30px;
+}
+.gallery img{
+    width:100%;
+    transition: 0.3s ease;
+    border-radius: 10px 10px;
+    aspect-ratio: 1 / 1;
+    
+}
+.gallery img:hover{
+inset:2px;
+cursor: pointer;
+} 
+
+
+@media (max-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}

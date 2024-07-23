@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.carousel-image {
+    max-height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+  }
+  /* .App{
+    text-align: center;
+  }
+  h1, h2, h3, p, a {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .footer-social-icons li:hover svg {
+    fill: #212529;
+  }
+  .footer-navigation li:hover {
+    color: #212529;
+  } */
+
+  /* Footer styles */
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.widgetFooter {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.widgetFooter h4 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#footerUsefulLink,
+#footerMediaLinks {
+  list-style: none;
+  padding: 0;
+}
+
+#footerUsefulLink li,
+#footerMediaLinks li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.usefulLinksIcons,
+.mediaLinksIcons {
+  margin-right: 10px;
+}
+
+#footerMediaLinks li {
+  margin-right: 5px;
+}
+
+.footerCopy {
+  text-align: center;
+  padding: 10px;
+  background-color: #e9ecef;
+}
+
+.footerCopy .inb {
+  display: inline-block;
+}
+
+.footerCopy p {
+  margin: 0;
+}
+
+.footerCopy sup {
+  vertical-align: super;
+}
+
+  

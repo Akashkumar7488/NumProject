@@ -1,0 +1,17 @@
+.blog-section {
+    background-image: linear-gradient(rgba(5,10,35,0.75), rgba(5,10,35,0.75)), url(./images/c5.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+.blog-section .scale-hover-effect {
+   transition: transform .5s ease;
+}
+.blog-section .scale-hover-effect:hover{
+    transform: scale(1.05);
+}
+
+.btn-success:hover {
+    color: white !important;
+  }
+
